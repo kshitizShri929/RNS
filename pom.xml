@@ -53,12 +53,30 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-orm-panache</artifactId>
   </dependency>
-
-  
   <dependency>
     <groupId>io.quarkus</groupId>
     <artifactId>quarkus-redis-client</artifactId>
 </dependency>
+<dependency>
+  <groupId>org.apache.camel.quarkus</groupId>
+  <artifactId>camel-quarkus-core</artifactId>
+  <version>3.2.0</version>  
+</dependency>
+
+<dependency>
+  <groupId>org.apache.camel</groupId>
+  <artifactId>camel-timer</artifactId>
+  <version>4.0.0</version>
+</dependency>
+
+
+
+
+  
+  
+
+
+
 
     <dependency>
       <groupId>io.quarkus</groupId>
